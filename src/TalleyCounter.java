@@ -31,6 +31,11 @@ public class TalleyCounter
 		count--;
 	}
 	
+	public String toString()
+	{
+		return "count: " + count;
+	}
+	
 	public int getCount() //accessor
 	{
 		return count;
